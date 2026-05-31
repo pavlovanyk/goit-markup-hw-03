@@ -1,0 +1,20 @@
+.features-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+}
+
+.features-subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+}
+
+.features-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
