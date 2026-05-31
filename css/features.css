@@ -18,3 +18,15 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.features-list {
+    display: flex;
+    gap: 24px;
+}
+
+.features-item {
+    width: calc((100% - 72px) / 4);
+}
+
+.features-subtitle {
+    margin-bottom: 8px;
+}

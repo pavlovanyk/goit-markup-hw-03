@@ -36,3 +36,40 @@ address {
 .contacts-link:focus {
     color: #404bbf;
 }
+header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 76px;
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-link {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+address {
+    margin-left: auto;
+}
+
+address ul {
+    display: flex;
+    gap: 40px;
+}
