@@ -12,20 +12,11 @@
     color: #4d5ae5;
 }
 
-.nav-link {
-    color: #2e2f42;
-    font-weight: 500;
-    line-height: 1.5;
-        letter-spacing: 0.02em;
-}
-
 .nav-link:hover,
 .nav-link:focus {
     color: #404bbf;
 }
-address {
-    font-style: normal;
-}
+
 .contacts-link {
     color: #434455;
     line-height: 1.5;
@@ -36,16 +27,16 @@ address {
 .contacts-link:focus {
     color: #404bbf;
 }
-header {
+.header {
     border-bottom: 1px solid #e7e9fc;
 }
 
-header .container {
+.header-container {
     display: flex;
     align-items: center;
 }
 
-nav {
+.header-nav {
     display: flex;
     align-items: center;
 }
@@ -54,7 +45,7 @@ nav {
     margin-right: 76px;
 }
 
-nav ul {
+.nav-list {
     display: flex;
     gap: 40px;
 }
@@ -65,11 +56,12 @@ nav ul {
     padding-bottom: 24px;
 }
 
-address {
+.contacts {
+    font-style: normal;
     margin-left: auto;
 }
 
-address ul {
+.contacts-list {
     display: flex;
     gap: 40px;
 }

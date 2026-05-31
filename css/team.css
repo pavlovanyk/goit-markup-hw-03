@@ -6,9 +6,6 @@
     text-align: center;
     margin-bottom: 72px;
 }
-.team li {
-    background-color: #ffffff;
-}
 
 .team-subtitle {
     font-size: 20px;
@@ -17,15 +14,13 @@
     color: #2e2f42;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 8px;
 }
 
 .team-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-}
-.team {
-    background-color: #f4f4fd;
 }
 
 .team-list {
@@ -36,19 +31,10 @@
 .team-item {
     background-color: #ffffff;
     width: calc((100% - 72px) / 4);
-}
-
-.team-title {
-    text-align: center;
-    margin-bottom: 72px;
-}
-
-.team-item {
-    background-color: #ffffff;
-    width: calc((100% - 72px) / 4);
+    border-radius: 0 0 4px 4px;
 }
 
 .team-content {
-    padding: 32px 0;
+    padding: 32px 16px;
     text-align: center;
 }
